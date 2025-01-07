@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react';
-import RootLayout from '../app/layout';
+import RootLayout from './layout';
 
 import Hero from '@/components/blocks/Hero';
 import Footer from '@/components/blocks/Footer';
