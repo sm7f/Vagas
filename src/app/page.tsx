@@ -5,7 +5,7 @@ import RootLayout from './layout';
 
 import Hero from '@/components/blocks/Hero';
 import Footer from '@/components/blocks/Footer';
-import AdBanner from '@/components/AdSense/AdBanner'
+
 
 // Definição de um tipo para as páginas disponíveis
 type PageName = 'Home' | 'About';
@@ -31,9 +31,6 @@ export default function Home() {
 function HomeContent(): JSX.Element {
   return (
     <>
-    <div className='bg-black'>
-      <AdBanner dataAdFormat='auto' dataFullWidthResponsive={true} dataAdSlot=''/>
-    </div>
       <Hero />
       <Footer/>
     </>
