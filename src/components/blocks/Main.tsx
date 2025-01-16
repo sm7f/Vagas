@@ -97,15 +97,18 @@ const Main: React.FC = () => {
             <section className="text-gray-600 body-font overflow-hidden">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="-my-8 divide-y-2 divide-gray-100">
+                    {/* Vaga 1 */}
                     <div className="py-8 flex flex-wrap md:flex-nowrap">
                         <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                        <span className="font-semibold title-font text-gray-700">CATEGORY</span>
+                        <span className="font-semibold title-font text-gray-700">Categoria: Desenvolvedor Front-End</span>
                         <span className="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
                         </div>
                         <div className="md:flex-grow">
-                        <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Bitters hashtag waistcoat fashion axe chia unicorn</h2>
-                        <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                        <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
+                        <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Desenvolvedor Front-End React</h2>
+                        <p className="leading-relaxed">
+                            Buscamos um desenvolvedor Front-End para trabalhar com React e Tailwind CSS. Você será responsável por implementar interfaces dinâmicas e responsivas.
+                        </p>
+                        <a className="text-indigo-500 inline-flex items-center mt-4">Saiba Mais
                             <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M5 12h14"></path>
                             <path d="M12 5l7 7-7 7"></path>
@@ -113,15 +116,19 @@ const Main: React.FC = () => {
                         </a>
                         </div>
                     </div>
+
+                    {/* Vaga 2 */}
                     <div className="py-8 flex flex-wrap md:flex-nowrap">
                         <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                        <span className="font-semibold title-font text-gray-700">CATEGORY</span>
-                        <span className="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
+                        <span className="font-semibold title-font text-gray-700">Categoria: Suporte Técnico</span>
+                        <span className="mt-1 text-gray-500 text-sm">15 Jun 2019</span>
                         </div>
                         <div className="md:flex-grow">
-                        <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Meditation bushwick direct trade taxidermy shaman</h2>
-                        <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                        <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
+                        <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Analista de Suporte Técnico</h2>
+                        <p className="leading-relaxed">
+                            Estamos à procura de um Analista de Suporte Técnico para fornecer suporte e resolver problemas de clientes. Será necessário conhecimento de redes e sistemas ERP.
+                        </p>
+                        <a className="text-indigo-500 inline-flex items-center mt-4">Saiba Mais
                             <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M5 12h14"></path>
                             <path d="M12 5l7 7-7 7"></path>
@@ -129,15 +136,19 @@ const Main: React.FC = () => {
                         </a>
                         </div>
                     </div>
+
+                    {/* Vaga 3 */}
                     <div className="py-8 flex flex-wrap md:flex-nowrap">
                         <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                        <span className="font-semibold title-font text-gray-700">CATEGORY</span>
-                        <span className="text-sm text-gray-500">12 Jun 2019</span>
+                        <span className="font-semibold title-font text-gray-700">Categoria: Desenvolvedor Backend</span>
+                        <span className="text-sm text-gray-500">20 Jun 2019</span>
                         </div>
                         <div className="md:flex-grow">
-                        <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
-                        <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                        <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
+                        <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Desenvolvedor Backend Node.js</h2>
+                        <p className="leading-relaxed">
+                            Estamos em busca de um desenvolvedor Backend com experiência em Node.js para trabalhar em projetos de alta performance e escalabilidade.
+                        </p>
+                        <a className="text-indigo-500 inline-flex items-center mt-4">Saiba Mais
                             <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M5 12h14"></path>
                             <path d="M12 5l7 7-7 7"></path>
@@ -149,92 +160,47 @@ const Main: React.FC = () => {
                 </div>
                 </section>
                 <section className="text-gray-600 body-font">
-                <div className="container px-5 py-24 mx-auto">
-                    <div className="flex flex-wrap w-full mb-20">
-                    <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+                    <div className="container flex flex-wrap px-5 py-24 mx-auto items-center">
+                        <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200">
                         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Pitchfork Kickstarter Taxidermy</h1>
-                        <div className="h-1 w-20 bg-indigo-500 rounded"></div>
-                    </div>
-                    <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
-                    </div>
-                    <div className="flex flex-wrap -m-4">
-                    <div className="xl:w-1/4 md:w-1/2 p-4">
-                        <div className="bg-gray-100 p-6 rounded-lg">
-                        <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content"/>
-                        <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-                        <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Chichen Itza</h2>
-                        <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+                        <p className="leading-relaxed text-base">Locavore cardigan small batch roof party blue bottle blog meggings sartorial jean shorts kickstarter migas sriracha church-key synth succulents. Actually taiyaki neutra, distillery gastropub pok pok ugh.</p>
+                        <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                        </div>
+                        <div className="flex flex-col md:w-1/2 md:pl-12">
+                        <h2 className="title-font font-semibold text-gray-800 tracking-wider text-sm mb-3">CATEGORIES</h2>
+                        <nav className="flex flex-wrap list-none -mb-1">
+                            <li className="lg:w-1/3 mb-1 w-1/2">
+                            <a className="text-gray-600 hover:text-gray-800">First Link</a>
+                            </li>
+                            <li className="lg:w-1/3 mb-1 w-1/2">
+                            <a className="text-gray-600 hover:text-gray-800">Second Link</a>
+                            </li>
+                            <li className="lg:w-1/3 mb-1 w-1/2">
+                            <a className="text-gray-600 hover:text-gray-800">Third Link</a>
+                            </li>
+                            <li className="lg:w-1/3 mb-1 w-1/2">
+                            <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
+                            </li>
+                            <li className="lg:w-1/3 mb-1 w-1/2">
+                            <a className="text-gray-600 hover:text-gray-800">Fifth Link</a>
+                            </li>
+                            <li className="lg:w-1/3 mb-1 w-1/2">
+                            <a className="text-gray-600 hover:text-gray-800">Sixth Link</a>
+                            </li>
+                            <li className="lg:w-1/3 mb-1 w-1/2">
+                            <a className="text-gray-600 hover:text-gray-800">Seventh Link</a>
+                            </li>
+                            <li className="lg:w-1/3 mb-1 w-1/2">
+                            <a className="text-gray-600 hover:text-gray-800">Eighth Link</a>
+                            </li>
+                        </nav>
                         </div>
                     </div>
-                    <div className="xl:w-1/4 md:w-1/2 p-4">
-                        <div className="bg-gray-100 p-6 rounded-lg">
-                        <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="content"/>
-                        <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-                        <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Colosseum Roma</h2>
-                        <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-                        </div>
-                    </div>
-                    <div className="xl:w-1/4 md:w-1/2 p-4">
-                        <div className="bg-gray-100 p-6 rounded-lg">
-                        <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="content"/>
-                        <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-                        <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Great Pyramid of Giza</h2>
-                        <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-                        </div>
-                    </div>
-                    <div className="xl:w-1/4 md:w-1/2 p-4">
-                        <div className="bg-gray-100 p-6 rounded-lg">
-                        <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content"/>
-                        <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-                        <h2 className="text-lg text-gray-900 font-medium title-font mb-4">San Francisco</h2>
-                        <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </section>
-                <section className="text-gray-600 body-font">
-                <div className="container flex flex-wrap px-5 py-24 mx-auto items-center">
-                    <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200">
-                    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Pitchfork Kickstarter Taxidermy</h1>
-                    <p className="leading-relaxed text-base">Locavore cardigan small batch roof party blue bottle blog meggings sartorial jean shorts kickstarter migas sriracha church-key synth succulents. Actually taiyaki neutra, distillery gastropub pok pok ugh.</p>
-                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                    </div>
-                    <div className="flex flex-col md:w-1/2 md:pl-12">
-                    <h2 className="title-font font-semibold text-gray-800 tracking-wider text-sm mb-3">CATEGORIES</h2>
-                    <nav className="flex flex-wrap list-none -mb-1">
-                        <li className="lg:w-1/3 mb-1 w-1/2">
-                        <a className="text-gray-600 hover:text-gray-800">First Link</a>
-                        </li>
-                        <li className="lg:w-1/3 mb-1 w-1/2">
-                        <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-                        </li>
-                        <li className="lg:w-1/3 mb-1 w-1/2">
-                        <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-                        </li>
-                        <li className="lg:w-1/3 mb-1 w-1/2">
-                        <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-                        </li>
-                        <li className="lg:w-1/3 mb-1 w-1/2">
-                        <a className="text-gray-600 hover:text-gray-800">Fifth Link</a>
-                        </li>
-                        <li className="lg:w-1/3 mb-1 w-1/2">
-                        <a className="text-gray-600 hover:text-gray-800">Sixth Link</a>
-                        </li>
-                        <li className="lg:w-1/3 mb-1 w-1/2">
-                        <a className="text-gray-600 hover:text-gray-800">Seventh Link</a>
-                        </li>
-                        <li className="lg:w-1/3 mb-1 w-1/2">
-                        <a className="text-gray-600 hover:text-gray-800">Eighth Link</a>
-                        </li>
-                    </nav>
-                    </div>
-                </div>
-                </section>
+                    </section>
           </div>
         </main>
       </div>
