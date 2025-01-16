@@ -5,6 +5,7 @@ import RootLayout from './layout';
 
 import Hero from '@/components/blocks/Hero';
 import Footer from '@/components/blocks/Footer';
+import Main from '@/components/blocks/Main';
 
 
 // Definição de um tipo para as páginas disponíveis
@@ -31,8 +32,7 @@ export default function Home() {
 function HomeContent(): JSX.Element {
   return (
     <>
-      <Hero />
-      <Footer/>
+      <Main/>
     </>
   );
 }
